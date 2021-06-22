@@ -9,8 +9,8 @@ export const styles = StyleSheet.create({
     width: '100%',
     paddingHorizontal: 24,
     flexDirection: 'row',
-    //justifyContent:'center',
+    justifyContent:'space-between',
     marginTop: getStatusBarHeight() + 26,
-    marginBottom: 42
+    marginBottom: 42,
   }
 });
