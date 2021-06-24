@@ -1,0 +1,17 @@
+{
+  "colorize.languages": [
+    "javascript",
+    "typescript"
+    // ...
+  ],
+  "colorize.colorized_colors": [
+    "HEXA",
+    "ARGB",
+    "RGB",
+    "HSL",
+    "BROWSERS_COLORS"
+  ],
+  "colorize.colorized_variables": [
+    "LESS"
+  ]
+}
