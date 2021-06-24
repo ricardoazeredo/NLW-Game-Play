@@ -6,6 +6,7 @@ import { ButtonAdd } from '../../components/ButtonAdd';
 import { CategorySelect } from '../../components/CategorySelect';
 import { ListHeader } from '../../components/ListHeader';
 import { ListDivider } from '../../components/ListDivider';
+import { Background } from '../../components/Background';
 
 import { styles } from './styles';
 import { Appointment } from '../../components/Appointment';
@@ -45,7 +46,7 @@ export function Home() {
   }
 
   return(
-    <View >
+    <Background >
       <View style={styles.header}>
         <Profile />
         <ButtonAdd />
@@ -74,6 +75,6 @@ export function Home() {
           />
         </View>
       
-    </View>
+    </Background>
   )
 }
